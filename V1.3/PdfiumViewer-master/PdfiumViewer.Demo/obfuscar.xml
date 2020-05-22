@@ -1,0 +1,10 @@
+﻿<?xml version='1.0'?>
+<Obfuscator>
+  <Var name="InPath" value="." />
+  <Var name="OutPath" value=".\Obfuscator_Output" />
+  <Var name="HidePrivateApi" value="true" />
+  <Var name="KeyFile" value="" />
+
+  <Module file="$(InPath)\PdfViewer.Demo.exe" />
+  <Module file="$(InPath)\PdfView.dll" />
+</Obfuscator>
